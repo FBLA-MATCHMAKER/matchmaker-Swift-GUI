@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D78AB7A82135DCA600E0E73F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AB7A72135DCA600E0E73F /* AppDelegate.swift */; };
+		D78AB7AA2135DCA600E0E73F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AB7A92135DCA600E0E73F /* ViewController.swift */; };
+		D78AB7AD2135DCA600E0E73F /* FBLA_MATCHMAKER_GUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D78AB7AB2135DCA600E0E73F /* FBLA_MATCHMAKER_GUI.xcdatamodeld */; };
+		D78AB7AF2135DCA800E0E73F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D78AB7AE2135DCA800E0E73F /* Assets.xcassets */; };
+		D78AB7B22135DCA800E0E73F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D78AB7B02135DCA800E0E73F /* Main.storyboard */; };
+		D78AB7BE2135DCA800E0E73F /* FBLA_MATCHMAKER_GUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AB7BD2135DCA800E0E73F /* FBLA_MATCHMAKER_GUITests.swift */; };
+		D78AB7C92135DCA800E0E73F /* FBLA_MATCHMAKER_GUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AB7C82135DCA800E0E73F /* FBLA_MATCHMAKER_GUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D78AB7BA2135DCA800E0E73F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D78AB79C2135DCA600E0E73F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D78AB7A32135DCA600E0E73F;
+			remoteInfo = "FBLA-MATCHMAKER-GUI";
+		};
+		D78AB7C52135DCA800E0E73F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D78AB79C2135DCA600E0E73F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D78AB7A32135DCA600E0E73F;
+			remoteInfo = "FBLA-MATCHMAKER-GUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D78AB7A42135DCA600E0E73F /* FBLA-MATCHMAKER-GUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FBLA-MATCHMAKER-GUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78AB7A72135DCA600E0E73F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D78AB7A92135DCA600E0E73F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D78AB7AC2135DCA600E0E73F /* FBLA_MATCHMAKER_GUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FBLA_MATCHMAKER_GUI.xcdatamodel; sourceTree = "<group>"; };
+		D78AB7AE2135DCA800E0E73F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D78AB7B12135DCA800E0E73F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D78AB7B32135DCA800E0E73F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D78AB7B42135DCA800E0E73F /* FBLA_MATCHMAKER_GUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FBLA_MATCHMAKER_GUI.entitlements; sourceTree = "<group>"; };
+		D78AB7B92135DCA800E0E73F /* FBLA-MATCHMAKER-GUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FBLA-MATCHMAKER-GUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78AB7BD2135DCA800E0E73F /* FBLA_MATCHMAKER_GUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLA_MATCHMAKER_GUITests.swift; sourceTree = "<group>"; };
+		D78AB7BF2135DCA800E0E73F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D78AB7C42135DCA800E0E73F /* FBLA-MATCHMAKER-GUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FBLA-MATCHMAKER-GUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78AB7C82135DCA800E0E73F /* FBLA_MATCHMAKER_GUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLA_MATCHMAKER_GUIUITests.swift; sourceTree = "<group>"; };
+		D78AB7CA2135DCA800E0E73F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D78AB7A12135DCA600E0E73F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78AB7B62135DCA800E0E73F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78AB7C12135DCA800E0E73F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D78AB79B2135DCA600E0E73F = {
+			isa = PBXGroup;
+			children = (
+				D78AB7A62135DCA600E0E73F /* FBLA-MATCHMAKER-GUI */,
+				D78AB7BC2135DCA800E0E73F /* FBLA-MATCHMAKER-GUITests */,
+				D78AB7C72135DCA800E0E73F /* FBLA-MATCHMAKER-GUIUITests */,
+				D78AB7A52135DCA600E0E73F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D78AB7A52135DCA600E0E73F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D78AB7A42135DCA600E0E73F /* FBLA-MATCHMAKER-GUI.app */,
+				D78AB7B92135DCA800E0E73F /* FBLA-MATCHMAKER-GUITests.xctest */,
+				D78AB7C42135DCA800E0E73F /* FBLA-MATCHMAKER-GUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D78AB7A62135DCA600E0E73F /* FBLA-MATCHMAKER-GUI */ = {
+			isa = PBXGroup;
+			children = (
+				D78AB7A72135DCA600E0E73F /* AppDelegate.swift */,
+				D78AB7A92135DCA600E0E73F /* ViewController.swift */,
+				D78AB7AE2135DCA800E0E73F /* Assets.xcassets */,
+				D78AB7B02135DCA800E0E73F /* Main.storyboard */,
+				D78AB7B32135DCA800E0E73F /* Info.plist */,
+				D78AB7B42135DCA800E0E73F /* FBLA_MATCHMAKER_GUI.entitlements */,
+				D78AB7AB2135DCA600E0E73F /* FBLA_MATCHMAKER_GUI.xcdatamodeld */,
+			);
+			path = "FBLA-MATCHMAKER-GUI";
+			sourceTree = "<group>";
+		};
+		D78AB7BC2135DCA800E0E73F /* FBLA-MATCHMAKER-GUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D78AB7BD2135DCA800E0E73F /* FBLA_MATCHMAKER_GUITests.swift */,
+				D78AB7BF2135DCA800E0E73F /* Info.plist */,
+			);
+			path = "FBLA-MATCHMAKER-GUITests";
+			sourceTree = "<group>";
+		};
+		D78AB7C72135DCA800E0E73F /* FBLA-MATCHMAKER-GUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D78AB7C82135DCA800E0E73F /* FBLA_MATCHMAKER_GUIUITests.swift */,
+				D78AB7CA2135DCA800E0E73F /* Info.plist */,
+			);
+			path = "FBLA-MATCHMAKER-GUIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D78AB7A32135DCA600E0E73F /* FBLA-MATCHMAKER-GUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78AB7CD2135DCA800E0E73F /* Build configuration list for PBXNativeTarget "FBLA-MATCHMAKER-GUI" */;
+			buildPhases = (
+				D78AB7A02135DCA600E0E73F /* Sources */,
+				D78AB7A12135DCA600E0E73F /* Frameworks */,
+				D78AB7A22135DCA600E0E73F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FBLA-MATCHMAKER-GUI";
+			productName = "FBLA-MATCHMAKER-GUI";
+			productReference = D78AB7A42135DCA600E0E73F /* FBLA-MATCHMAKER-GUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D78AB7B82135DCA800E0E73F /* FBLA-MATCHMAKER-GUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78AB7D02135DCA800E0E73F /* Build configuration list for PBXNativeTarget "FBLA-MATCHMAKER-GUITests" */;
+			buildPhases = (
+				D78AB7B52135DCA800E0E73F /* Sources */,
+				D78AB7B62135DCA800E0E73F /* Frameworks */,
+				D78AB7B72135DCA800E0E73F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D78AB7BB2135DCA800E0E73F /* PBXTargetDependency */,
+			);
+			name = "FBLA-MATCHMAKER-GUITests";
+			productName = "FBLA-MATCHMAKER-GUITests";
+			productReference = D78AB7B92135DCA800E0E73F /* FBLA-MATCHMAKER-GUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D78AB7C32135DCA800E0E73F /* FBLA-MATCHMAKER-GUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78AB7D32135DCA800E0E73F /* Build configuration list for PBXNativeTarget "FBLA-MATCHMAKER-GUIUITests" */;
+			buildPhases = (
+				D78AB7C02135DCA800E0E73F /* Sources */,
+				D78AB7C12135DCA800E0E73F /* Frameworks */,
+				D78AB7C22135DCA800E0E73F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D78AB7C62135DCA800E0E73F /* PBXTargetDependency */,
+			);
+			name = "FBLA-MATCHMAKER-GUIUITests";
+			productName = "FBLA-MATCHMAKER-GUIUITests";
+			productReference = D78AB7C42135DCA800E0E73F /* FBLA-MATCHMAKER-GUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D78AB79C2135DCA600E0E73F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Larson Carter";
+				TargetAttributes = {
+					D78AB7A32135DCA600E0E73F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D78AB7B82135DCA800E0E73F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D78AB7A32135DCA600E0E73F;
+					};
+					D78AB7C32135DCA800E0E73F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D78AB7A32135DCA600E0E73F;
+					};
+				};
+			};
+			buildConfigurationList = D78AB79F2135DCA600E0E73F /* Build configuration list for PBXProject "FBLA-MATCHMAKER-GUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D78AB79B2135DCA600E0E73F;
+			productRefGroup = D78AB7A52135DCA600E0E73F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D78AB7A32135DCA600E0E73F /* FBLA-MATCHMAKER-GUI */,
+				D78AB7B82135DCA800E0E73F /* FBLA-MATCHMAKER-GUITests */,
+				D78AB7C32135DCA800E0E73F /* FBLA-MATCHMAKER-GUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D78AB7A22135DCA600E0E73F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78AB7AF2135DCA800E0E73F /* Assets.xcassets in Resources */,
+				D78AB7B22135DCA800E0E73F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78AB7B72135DCA800E0E73F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78AB7C22135DCA800E0E73F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D78AB7A02135DCA600E0E73F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78AB7AA2135DCA600E0E73F /* ViewController.swift in Sources */,
+				D78AB7AD2135DCA600E0E73F /* FBLA_MATCHMAKER_GUI.xcdatamodeld in Sources */,
+				D78AB7A82135DCA600E0E73F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78AB7B52135DCA800E0E73F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78AB7BE2135DCA800E0E73F /* FBLA_MATCHMAKER_GUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78AB7C02135DCA800E0E73F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78AB7C92135DCA800E0E73F /* FBLA_MATCHMAKER_GUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D78AB7BB2135DCA800E0E73F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D78AB7A32135DCA600E0E73F /* FBLA-MATCHMAKER-GUI */;
+			targetProxy = D78AB7BA2135DCA800E0E73F /* PBXContainerItemProxy */;
+		};
+		D78AB7C62135DCA800E0E73F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D78AB7A32135DCA600E0E73F /* FBLA-MATCHMAKER-GUI */;
+			targetProxy = D78AB7C52135DCA800E0E73F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D78AB7B02135DCA800E0E73F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D78AB7B12135DCA800E0E73F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D78AB7CB2135DCA800E0E73F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D78AB7CC2135DCA800E0E73F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D78AB7CE2135DCA800E0E73F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FBLA-MATCHMAKER-GUI/FBLA_MATCHMAKER_GUI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U4Q3GQVC5T;
+				INFOPLIST_FILE = "FBLA-MATCHMAKER-GUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LC-PRODUCTIONS.FBLA-MATCHMAKER-GUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D78AB7CF2135DCA800E0E73F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FBLA-MATCHMAKER-GUI/FBLA_MATCHMAKER_GUI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U4Q3GQVC5T;
+				INFOPLIST_FILE = "FBLA-MATCHMAKER-GUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LC-PRODUCTIONS.FBLA-MATCHMAKER-GUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		D78AB7D12135DCA800E0E73F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U4Q3GQVC5T;
+				INFOPLIST_FILE = "FBLA-MATCHMAKER-GUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LC-PRODUCTIONS.FBLA-MATCHMAKER-GUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBLA-MATCHMAKER-GUI.app/Contents/MacOS/FBLA-MATCHMAKER-GUI";
+			};
+			name = Debug;
+		};
+		D78AB7D22135DCA800E0E73F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U4Q3GQVC5T;
+				INFOPLIST_FILE = "FBLA-MATCHMAKER-GUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LC-PRODUCTIONS.FBLA-MATCHMAKER-GUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBLA-MATCHMAKER-GUI.app/Contents/MacOS/FBLA-MATCHMAKER-GUI";
+			};
+			name = Release;
+		};
+		D78AB7D42135DCA800E0E73F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U4Q3GQVC5T;
+				INFOPLIST_FILE = "FBLA-MATCHMAKER-GUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LC-PRODUCTIONS.FBLA-MATCHMAKER-GUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "FBLA-MATCHMAKER-GUI";
+			};
+			name = Debug;
+		};
+		D78AB7D52135DCA800E0E73F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U4Q3GQVC5T;
+				INFOPLIST_FILE = "FBLA-MATCHMAKER-GUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LC-PRODUCTIONS.FBLA-MATCHMAKER-GUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "FBLA-MATCHMAKER-GUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D78AB79F2135DCA600E0E73F /* Build configuration list for PBXProject "FBLA-MATCHMAKER-GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78AB7CB2135DCA800E0E73F /* Debug */,
+				D78AB7CC2135DCA800E0E73F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D78AB7CD2135DCA800E0E73F /* Build configuration list for PBXNativeTarget "FBLA-MATCHMAKER-GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78AB7CE2135DCA800E0E73F /* Debug */,
+				D78AB7CF2135DCA800E0E73F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D78AB7D02135DCA800E0E73F /* Build configuration list for PBXNativeTarget "FBLA-MATCHMAKER-GUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78AB7D12135DCA800E0E73F /* Debug */,
+				D78AB7D22135DCA800E0E73F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D78AB7D32135DCA800E0E73F /* Build configuration list for PBXNativeTarget "FBLA-MATCHMAKER-GUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78AB7D42135DCA800E0E73F /* Debug */,
+				D78AB7D52135DCA800E0E73F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D78AB7AB2135DCA600E0E73F /* FBLA_MATCHMAKER_GUI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D78AB7AC2135DCA600E0E73F /* FBLA_MATCHMAKER_GUI.xcdatamodel */,
+			);
+			currentVersion = D78AB7AC2135DCA600E0E73F /* FBLA_MATCHMAKER_GUI.xcdatamodel */;
+			path = FBLA_MATCHMAKER_GUI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D78AB79C2135DCA600E0E73F /* Project object */;
+}
